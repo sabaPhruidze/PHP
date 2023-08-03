@@ -1,0 +1,22 @@
+{
+    "name": "home/15_autoloading",
+    "autoload": {
+        "psr-4": {
+            "Home\\15Autoloading\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saba",
+            "email": "phruidzesaba@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.7"
+    },
+    "autoload": {
+        "psr-4": { 
+        "app\\":"./app"
+        }
+    }
+}
